@@ -67,7 +67,7 @@ redirect_from:
     {% assign search_blob = pub.title | append: ' ' | append: pub.authors | append: ' ' | append: pub.venue | append: ' ' | append: pub.tags | append: ' ' | append: pub.links %}
     {% assign citation_text = author_text | append: ' (' | append: pub.year | append: '). ' | append: pub.title | append: '. ' | append: pub.venue | append: '.' %}
     {% assign query = pub.title | uri_escape %}
-    {% assign fallback_links = 'web|https://addekth.github.io/publications/;scholar|https://scholar.google.com/scholar?q=' | append: query | append: ';diva|https://kth.diva-portal.org/smash/resultList.jsf?searchType=SIMPLE&query=' | append: query %}
+    {% assign fallback_links = 'scholar|https://scholar.google.com/scholar?q=' | append: query | append: ';diva|https://kth.diva-portal.org/smash/resultList.jsf?searchType=SIMPLE&query=' | append: query %}
     {% assign query_links = 'scholar|https://scholar.google.com/scholar?q=' | append: query | append: ';diva|https://kth.diva-portal.org/smash/resultList.jsf?searchType=SIMPLE&query=' | append: query %}
     <article class="pub-card" data-year="{{ pub.year }}" data-type="{{ pub.type }}" data-search="{{ search_blob | downcase | escape }}">
       <h3>{{ pub.title }}</h3>

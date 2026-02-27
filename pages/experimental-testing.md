@@ -1,21 +1,34 @@
 ---
-title: Field Testing
-description: Field campaign records for track and road material testing.
-permalink: /field-testing/
+title: Experimental Testing
+description: Experimental campaign records for track and road material testing.
+permalink: /experimental-testing/
 redirect_from:
+  - /experiment-testing
+  - /experiment-testing/
+  - /experiment-testing/index.html
+  - /field-testing
+  - /field-testing/
+  - /field-testing/index.html
+  - /sv/experimental-testing
+  - /sv/experimental-testing/
+  - /sv/experimental-testing/index.html
+  - /sv/experiment-testing
+  - /sv/experiment-testing/
+  - /sv/experiment-testing/index.html
   - /sv/field-testing
   - /sv/field-testing/
   - /sv/field-testing/index.html
 ---
 
-{% assign intro_block = site.blocks | where: 'slug', 'field_testing_intro' | first %}
+{% assign intro_block = site.blocks | where: 'slug', 'experimental_testing_intro' | first %}
 {% if intro_block %}
 <section class="card">
   {{ intro_block.content | markdownify }}
 </section>
 {% endif %}
 
-{% assign grouped = site.data.field_testing | group_by_exp: "item", "item.year" | sort: "name" | reverse %}
+<section style="margin-top: 1rem;">
+{% assign grouped = site.data.experimental_testing | group_by_exp: "item", "item.year" | sort: "name" | reverse %}
 
 {% for group in grouped %}
   <details class="year-group" {% if forloop.first %}open{% endif %}>
@@ -32,3 +45,4 @@ redirect_from:
     </ul>
   </details>
 {% endfor %}
+</section>

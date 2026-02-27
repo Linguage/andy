@@ -48,10 +48,10 @@ redirect_from:
     <a class="cta" href="{{ '/projects/' | relative_url }}">Open projects</a>
   </article>
   <article class="card">
-    <p class="kicker">Field Testing</p>
+    <p class="kicker">Experimental Testing</p>
     <h2>Campaign log by year</h2>
     <p>Chronological record of in-situ dynamic testing activities across Sweden.</p>
-    <a class="cta" href="{{ '/field-testing/' | relative_url }}">Open field testing</a>
+    <a class="cta" href="{{ '/experimental-testing/' | relative_url }}">Open experimental testing</a>
   </article>
 </section>
 

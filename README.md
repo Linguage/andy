@@ -32,7 +32,7 @@ bundle exec jekyll build
 
 All maintained content lives in `contents/`.
 
-- `contents/data/*.csv`: structured lists (publications, projects, teaching, field testing, CV tables)
+- `contents/data/*.csv`: structured lists (publications, projects, teaching, experimental testing, CV tables)
 - `contents/_blocks/*.md`: page narrative blocks rendered inside page templates
 
 Page files in `pages/` (`index.md`, `publications.md`, etc.) are renderers only.
@@ -52,7 +52,7 @@ Page files in `pages/` (`index.md`, `publications.md`, etc.) are renderers only.
   - `year,title,description,links`
 - `contents/data/projects_commission.csv`
   - `period,title,links`
-- `contents/data/field_testing.csv`
+- `contents/data/experimental_testing.csv`
   - `date,year,location,title,notes,links`
 - `contents/data/external_profiles.csv`
   - `label,url`

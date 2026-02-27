@@ -93,16 +93,22 @@ write_csv(
 
 field_testing = YAML.load_file(File.join(DATA_DIR, "field_testing.yml"))
 write_csv(
-  File.join(OUT_DIR, "field_testing.csv"),
+  File.join(OUT_DIR, "experimental_testing.csv"),
   %w[date year location title notes links],
   field_testing.map do |row|
+    links = []
+    links << "map|#{row['map_url']}" unless row["map_url"].to_s.strip.empty?
+    links << "map_2|#{row['map_url_2']}" unless row["map_url_2"].to_s.strip.empty?
+    links << "web|#{row['url']}" unless row["url"].to_s.strip.empty?
+    links << "web_2|#{row['url_2']}" unless row["url_2"].to_s.strip.empty?
+
     {
       "date" => row["date"],
       "year" => row["year"],
       "location" => row["location_en"],
       "title" => row["title_en"],
       "notes" => row["notes_en"],
-      "links" => row["map_url"].to_s.strip.empty? ? "" : "map|#{row['map_url']}"
+      "links" => links.join(";")
     }
   end
 )
