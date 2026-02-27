@@ -1,0 +1,27 @@
+name: Site CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  validate-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Validate publication schema
+        run: ruby script/validate_publications.rb
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Check publication links
+        run: ruby script/check_links.rb

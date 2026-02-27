@@ -1,0 +1,17 @@
+<nav class="top-nav" aria-label="Primary navigation">
+  <a class="brand" href="{{ '/' | relative_url }}">Andreas Andersson</a>
+  <button class="nav-toggle" type="button" aria-controls="primary-nav-links" aria-expanded="false" aria-label="Toggle navigation menu">
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+  </button>
+  <div class="nav-links" id="primary-nav-links">
+    {% assign current = page.url %}
+    <a href="{{ '/' | relative_url }}" class="{% if current == '/' or current == '/index.html' %}is-active{% endif %}">Home</a>
+    <a href="{{ '/publications/' | relative_url }}" class="{% if current contains '/publications/' %}is-active{% endif %}">Publications</a>
+    <a href="{{ '/teaching/' | relative_url }}" class="{% if current contains '/teaching/' %}is-active{% endif %}">Teaching</a>
+    <a href="{{ '/projects/' | relative_url }}" class="{% if current contains '/projects/' %}is-active{% endif %}">Projects</a>
+    <a href="{{ '/field-testing/' | relative_url }}" class="{% if current contains '/field-testing/' %}is-active{% endif %}">Field Testing</a>
+    <a href="{{ '/cv/' | relative_url }}" class="{% if current contains '/cv/' %}is-active{% endif %}">CV</a>
+  </div>
+</nav>

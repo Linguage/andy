@@ -1,0 +1,4 @@
+*.md text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.rb text eol=lf

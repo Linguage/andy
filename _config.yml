@@ -1,0 +1,29 @@
+title: Andreas Andersson
+email: andreas.andersson@infra.kth.se
+description: >-
+  Academic profile, publications, teaching, projects, and field testing records.
+url: "https://linguage.github.io"
+baseurl: "/andy"
+lang: en
+timezone: Europe/Stockholm
+markdown: kramdown
+permalink: pretty
+data_dir: contents/data
+collections_dir: contents
+collections:
+  blocks:
+    output: false
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - script
+  - vendor
+  - vendor/bundle

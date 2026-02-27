@@ -1,0 +1,17 @@
+{% assign link_value = include.links | default: '' | strip %}
+{% if link_value != '' %}
+  {% assign pairs = link_value | split: ';' %}
+  <div class="pub-links">
+    {% for pair in pairs %}
+      {% assign pair_clean = pair | strip %}
+      {% if pair_clean != '' and pair_clean contains '|' %}
+        {% assign parts = pair_clean | split: '|' %}
+        {% assign label = parts[0] | strip %}
+        {% assign url = parts[1] | strip %}
+        {% if label != '' and url != '' %}
+          <a href="{{ url }}">{{ label }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
