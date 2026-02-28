@@ -19,6 +19,7 @@ permalink: /publications/keywords/
   <div class="keyword-cloud-header">
     <p class="kicker">Interactive filter</p>
     <p id="keyword-cloud-selection" class="meta">No keyword selected.</p>
+    <p id="keyword-cloud-extra" class="meta" hidden></p>
     <p id="keyword-cloud-match" class="filter-status">{{ publication_count }} publications available.</p>
   </div>
 
@@ -43,4 +44,5 @@ permalink: /publications/keywords/
   </div>
 </section>
 
+<script src="{{ '/assets/js/publications-search-core.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/publications-keywords.js' | relative_url }}" defer></script>

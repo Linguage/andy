@@ -92,4 +92,5 @@ redirect_from:
   {% endfor %}
 </div>
 
+<script src="{{ '/assets/js/publications-search-core.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/publications.js' | relative_url }}" defer></script>

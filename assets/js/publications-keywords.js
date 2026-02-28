@@ -1,9 +1,15 @@
 (() => {
   const app = document.querySelector("#pub-keyword-app");
   if (!app) return;
+  const searchCore = window.PublicationSearchCore;
+  if (!searchCore) {
+    console.error("PublicationSearchCore is not loaded.");
+    return;
+  }
 
   const cloud = app.querySelector("#keyword-cloud");
   const selectionLabel = app.querySelector("#keyword-cloud-selection");
+  const extraTermsLabel = app.querySelector("#keyword-cloud-extra");
   const matchLabel = app.querySelector("#keyword-cloud-match");
   const clearButton = app.querySelector("#keyword-clear-btn");
   const applyLink = app.querySelector("#keyword-apply-link");
@@ -39,20 +45,6 @@
   const MIN_FREQUENCY = 4;
   const MAX_WORDS = 140;
   const ASCII_ONLY_TOKENS = true;
-
-  const tokenizeQuery = (raw) => {
-    const seen = new Set();
-    return (raw || "")
-      .toLowerCase()
-      .split(/[\s,]+/)
-      .map((token) => token.trim())
-      .filter((token) => {
-        if (!token || seen.has(token)) return false;
-        seen.add(token);
-        return true;
-      });
-  };
-  const matchesAllTokens = (text, queryTokens) => queryTokens.every((token) => text.includes(token));
 
   const tokenizeAuthorText = (raw) => {
     const tokens = (raw || "").toLowerCase().match(/[\p{L}]+(?:-[\p{L}]+)*/gu) || [];
@@ -97,31 +89,26 @@
     .filter((entry) => entry[1] >= MIN_FREQUENCY)
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
     .slice(0, MAX_WORDS);
+  const cloudWordSet = new Set(words.map(([word]) => word));
 
   const wordMatchCount = new Map();
   words.forEach(([word]) => {
-    const count = publicationSearchTexts.reduce((acc, text) => (text.includes(word) ? acc + 1 : acc), 0);
+    const count = searchCore.countMatches(publicationSearchTexts, [word]);
     wordMatchCount.set(word, count);
   });
 
   const selected = new Set(
-    tokenizeQuery(params.get("q") || "")
-      .filter((token) => frequencies.has(token))
+    searchCore.tokenizeQuery(params.get("q") || "")
   );
 
   const wordCountValues = words.map((entry) => entry[1]);
   const minCount = wordCountValues.length ? Math.min(...wordCountValues) : 0;
   const maxCount = wordCountValues.length ? Math.max(...wordCountValues) : 0;
 
-  const queryFromSelection = () => [...selected].join(" ");
+  const queryFromSelection = () => searchCore.normalizeQuery([...selected].join(" "));
 
   const countMatches = () => {
-    if (!selected.size) return publicationSearchTexts.length;
-    const required = [...selected];
-    return publicationSearchTexts.reduce((acc, text) => {
-      if (matchesAllTokens(text, required)) return acc + 1;
-      return acc;
-    }, 0);
+    return searchCore.countMatches(publicationSearchTexts, searchCore.tokenizeQuery(queryFromSelection()));
   };
 
   const sizeLevelForCount = (count) => {
@@ -141,15 +128,26 @@
   };
 
   const updateActions = () => {
-    const selectedTerms = [...selected];
+    const selectedTerms = searchCore.tokenizeQuery(queryFromSelection());
     const matchedCount = countMatches();
+    const nonCloudTerms = selectedTerms.filter((term) => !cloudWordSet.has(term));
 
     if (!selectedTerms.length) {
       selectionLabel.textContent = "No keyword selected.";
-      matchLabel.textContent = `${publicationTokens.length} publications available.`;
+      matchLabel.textContent = `${publicationSearchTexts.length} publications available.`;
     } else {
       selectionLabel.textContent = `Selected keywords (${selectedTerms.length}): ${selectedTerms.join(", ")}`;
       matchLabel.textContent = `${matchedCount} publications match current selection.`;
+    }
+
+    if (extraTermsLabel) {
+      if (nonCloudTerms.length) {
+        extraTermsLabel.hidden = false;
+        extraTermsLabel.textContent = `Additional query terms not in cloud: ${nonCloudTerms.join(", ")}`;
+      } else {
+        extraTermsLabel.hidden = true;
+        extraTermsLabel.textContent = "";
+      }
     }
 
     const pubParams = new URLSearchParams();
