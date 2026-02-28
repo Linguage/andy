@@ -20,7 +20,7 @@ redirect_from:
 <form id="pub-filter-form" class="filter-panel" aria-label="Publication filters" style="margin-top: 1rem;">
   <div>
     <label for="filter-q">Keyword</label>
-    <input id="filter-q" name="q" type="search" placeholder="e.g. concrete, resilience, compaction">
+    <input id="filter-q" name="q" type="search" placeholder="e.g. bridge damping, soil compaction (AND match)">
   </div>
   <div>
     <label for="filter-year">Year</label>
@@ -46,6 +46,10 @@ redirect_from:
   </div>
 </form>
 
+<div class="publication-tools">
+  <a class="keyword-cloud-link" href="{{ '/publications/keywords/' | relative_url }}">Keyword Cloud</a>
+</div>
+
 <p class="filter-status"><span id="filter-count">0</span> publications shown.</p>
 <p id="filter-empty" class="filter-status" hidden>No publication matched the current filter.</p>
 
@@ -64,7 +68,7 @@ redirect_from:
     {% endcase %}
     {% assign authors = pub.authors | split: ';' %}
     {% assign author_text = authors | join: ', ' %}
-    {% assign search_blob = pub.title | append: ' ' | append: pub.authors | append: ' ' | append: pub.venue | append: ' ' | append: pub.tags | append: ' ' | append: pub.links %}
+    {% assign search_blob = pub.title | append: ' ' | append: pub.authors | append: ' ' | append: pub.venue | append: ' ' | append: pub.tags %}
     {% assign citation_text = author_text | append: ' (' | append: pub.year | append: '). ' | append: pub.title | append: '. ' | append: pub.venue | append: '.' %}
     {% assign query = pub.title | uri_escape %}
     {% assign fallback_links = 'scholar|https://scholar.google.com/scholar?q=' | append: query | append: ';diva|https://kth.diva-portal.org/smash/resultList.jsf?searchType=SIMPLE&query=' | append: query %}

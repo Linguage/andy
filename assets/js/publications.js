@@ -13,9 +13,23 @@
   const allowedTypes = new Set([...typeSelect.options].map((opt) => opt.value).filter(Boolean));
   const allowedYears = new Set([...yearSelect.options].map((opt) => opt.value).filter(Boolean));
   const params = new URLSearchParams(window.location.search);
+  const tokenizeQuery = (raw) => {
+    const seen = new Set();
+    return (raw || "")
+      .toLowerCase()
+      .split(/[\s,]+/)
+      .map((token) => token.trim())
+      .filter((token) => {
+        if (!token || seen.has(token)) return false;
+        seen.add(token);
+        return true;
+      });
+  };
+  const normalizeQuery = (raw) => tokenizeQuery(raw).join(" ");
+  const matchesAllTokens = (text, queryTokens) => queryTokens.every((token) => text.includes(token));
 
   const state = {
-    q: (params.get("q") || "").trim().toLowerCase(),
+    q: normalizeQuery(params.get("q") || ""),
     year: params.get("year") || "",
     type: params.get("type") || ""
   };
@@ -39,10 +53,11 @@
 
   const applyFilters = () => {
     let visible = 0;
+    const queryTokens = tokenizeQuery(state.q);
 
     cards.forEach((card) => {
       const text = card.dataset.search || "";
-      const matchQ = !state.q || text.includes(state.q);
+      const matchQ = !queryTokens.length || matchesAllTokens(text, queryTokens);
       const matchYear = !state.year || card.dataset.year === state.year;
       const matchType = !state.type || card.dataset.type === state.type;
       const show = matchQ && matchYear && matchType;
@@ -59,7 +74,7 @@
   qInput.addEventListener("input", (event) => {
     clearTimeout(timer);
     timer = window.setTimeout(() => {
-      state.q = event.target.value.trim().toLowerCase();
+      state.q = normalizeQuery(event.target.value);
       applyFilters();
     }, 100);
   });

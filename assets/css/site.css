@@ -253,6 +253,28 @@ a.cta:hover,
   color: var(--muted);
 }
 
+.publication-tools {
+  margin: -0.25rem 0 0.85rem;
+}
+
+.keyword-cloud-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.28rem 0.72rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+.keyword-cloud-link:hover {
+  background: var(--chip);
+  text-decoration: none;
+}
+
 .pub-list {
   display: grid;
   gap: 0.75rem;
@@ -318,6 +340,114 @@ a.cta:hover,
 .copy-citation-btn:hover {
   color: var(--ink);
   background: var(--chip);
+}
+
+.keyword-cloud-card {
+  overflow: hidden;
+}
+
+.keyword-cloud-header .kicker {
+  margin: 0;
+}
+
+.keyword-cloud-header .meta {
+  margin: 0.2rem 0 0;
+}
+
+.keyword-cloud-header .filter-status {
+  margin: 0.25rem 0 0.7rem;
+}
+
+.keyword-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.42rem;
+  align-items: baseline;
+}
+
+.keyword-token {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.18rem 0.58rem;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  line-height: 1.2;
+  transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.keyword-token:hover {
+  background: var(--chip);
+}
+
+.keyword-token.is-active {
+  border-color: var(--accent);
+  background: var(--chip);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.keyword-level-1 {
+  font-size: 0.82rem;
+}
+
+.keyword-level-2 {
+  font-size: 0.93rem;
+}
+
+.keyword-level-3 {
+  font-size: 1.02rem;
+}
+
+.keyword-level-4 {
+  font-size: 1.15rem;
+}
+
+.keyword-level-5 {
+  font-size: 1.3rem;
+}
+
+.keyword-cloud-actions {
+  margin-top: 0.95rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.keyword-cloud-clear {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--muted);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+}
+
+.keyword-cloud-clear:hover:not(:disabled) {
+  color: var(--ink);
+  background: var(--chip);
+}
+
+.keyword-cloud-clear:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.keyword-cloud-apply {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  color: var(--accent);
+  text-decoration: none;
+  background: #fff;
+  font-size: 0.9rem;
+}
+
+.keyword-cloud-apply:hover {
+  background: var(--chip);
+  text-decoration: none;
 }
 
 .hidden {
@@ -393,6 +523,11 @@ details.year-group summary {
 
   .filter-panel {
     grid-template-columns: 1fr;
+  }
+
+  .keyword-cloud-actions {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
