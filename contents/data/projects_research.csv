@@ -1,11 +1,20 @@
 year,title,description,links
-2023,InBridge4EU (WP3),Railway bridge dynamics research and work-package leadership within Europe's Rail.,web|https://inbridge4eu.eu;Project site|https://inbridge4eu.eu;Europe's Rail|https://rail-research.europa.eu
-2023,IAM4RAIL (FP3 Task 16.2),Resilient and sustainable rail assets with focus on dynamic amplification and bridge resonance.,web|https://projects.rail-research.europa.eu;Project page|https://projects.rail-research.europa.eu
-2022,Increased load capacity of railway bridges through lower dynamic amplification factor,National project TRV 2022/72031 (coordinator/researcher),TRV project reference|https://www.trafikverket.se
-2021,High-speed low-cost bridges (In2Track3),Shift2Rail-linked railway bridge dynamics research (researcher),Shift2Rail archive|https://www.shift2rail.org
-2019,High-speed low-cost bridges (In2Track2),Shift2Rail-linked continuation with dynamic assessment focus (researcher),Shift2Rail archive|https://www.shift2rail.org
-2018,Dynamic assessment of existing railway bridges,Project TRV 2018/109558 (coordinator/researcher),TRV project reference|https://www.trafikverket.se
-2017,Soil-steel composite bridges for high-speed railways,Research with ViaCon Sp z o.o. (coordinator/researcher),ViaCon|https://www.viacon.pl
-2017,RISEN post-doctoral research period,Train-track-bridge interaction at Southwest Jiaotong University (researcher),web|https://cordis.europa.eu;RISEN on CORDIS|https://cordis.europa.eu
-2016,Dynamic bridge behavior on high-speed lines,Series of projects on support flexibility and safety/comfort limits (coordinator/researcher),KTH bridges group|https://www.kth.se/en/sci/skolan-for-arkitektur-och-samhallsbyggnad/avdelningar/byggvetenskap/forskning/byggkonstruktion
-2012,Long Life Bridges (FP7 Marie Curie),International railway bridge research at Roughan & O'Donovan (researcher),web|https://cordis.europa.eu;Long Life Bridges on CORDIS|https://cordis.europa.eu
+2023,Railway bridge dynamics,"Part of InBridge4EU (researcher, leader of WP3), web HORIZON-ER-JU-2022-02 based on ERA tech. note ERA1193-TD-01-2022 V 1.0",InBridge4EU|https://doi.org/10.3030/101121765;web|https://inbridge4eu.eu/;HORIZON-ER-JU-2022-02|https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-er-ju-2022-explr-02;ERA1193-TD-01-2022 V 1.0|https://rail-research.europa.eu/wp-content/uploads/2022/09/ERA1193-TD-01-2022_ERA-Technical-Note-Bridge-Dynamics.pdf
+2023,Railway bridge dynamics,"Part of Europe's Rail, FP3: IAM4RAIL - Holistic and Integrated Asset Management for Europe's RAIL System, WP16 - Sustainable and cost-efficient eco-design for rail assets, Task 16.2 - Resilient and sustainable lines, subtask 16.2.1 - Improved dynamic amplification factors and subtask 16.2.2 - Bridge resonance. (researcher) web",IAM4RAIL|https://doi.org/10.3030/101101966;web|https://projects.rail-research.europa.eu/eurail-fp3/
+2022,Ökad lastkapacitet på järnvägsbroar genom lägre dynamisk förstoringsfaktor.,TRV 2022/72031. (coordinator/researcher),
+2021,High-speed low-cost bridges.,"Part of IP3- In2Track3 , TRV 2015/50535, Shift2Rail Grant Agreement 101012456. (researcher)",In2Track3|https://doi.org/10.3030/101012456
+2019,High-speed low-cost bridges.,"Part of IP3- In2Track2 , TRV 2015/50535, Shift2Rail Grant Agreement 730841. (researcher)",In2Track2|https://doi.org/10.3030/826255
+2018,"Dynamic assessment of existing railway bridges, TRV 2018/109558. (coordinator/researcher)",,
+2017,Soil-steel composite bridges for high-speed railways. ViaCon Sp z o.o. (coordinator/researcher),,
+2017,Soil-Structure-Interaction for railway bridge dynamics.,"Part of IP3- In2Track , TRV 2015/50535, Shift2Rail Grant Agreement 730841. (researcher)",In2Track|https://doi.org/10.3030/730841
+2017,"RISEN . Post-Doctoral visit at the State Key Laboratory of Traction Power, Southwest Jiaotong University, Chengdu, China. H2020-MSCA-RISE-2015. (researcher)",,RISEN|https://doi.org/10.3030/691135
+2017,Capacity4Rail . SCP3-GA-2013-605650. Analysis of data from viaduct PI24.,,Capacity4Rail|http://cordis.europa.eu/project/rcn/110284_en.html
+2016,Brodynamik på höghastighetsbanor – Inverkan av upplagens eftergivlighet.,TRV 2016/56775. (coordinator/researcher),
+2016,Brodynamik på höghastighetsbanor – Gränsvärden för säkerhet och komfort.,TRV 2016/56769. (coordinator/researcher),
+2016,Designdiagram för dynamisk kontroll av ballastfria järnvägsbroar.,TRV 2015/101355. (coordinator/researcher),
+2014,"Statisk och dynamisk provning av betongplattor. TRV 2014/9989. Co-financed by the European Union, Trans-European Transport Network (TEN-T). (coordinator/researcher)",,
+2013,Forskning och utvecklingstjänst gällande brodynamik och höghastighetståg på Botniabanan (del 2). TRV 2013/55617. (coordinator/researcher),,
+2012,Forskning och utvecklingstjänst gällande brodynamik och höghastighetståg på Botniabanan (del 1). TRV 2012/74965. (coordinator/researcher),,
+2012,"Long Life Bridges . 7 th Framework Marie-Curie Project, FP7-PEOPLE-2011-IAPP, Grant Agreement Number 286276. (researcher)",,Long Life Bridges|http://cordis.europa.eu/project/rcn/100243_en.html
+2011,Teknisk utredning avseende högre hastigheter på befintliga järnvägsbroar.,TRV 2011/69283. (coordinator/researcher),
+2010,Forskning och utvecklingstjänst avseende övergripande teknisk systemstandard för järnvägsbroar på höghastighetsbanor. TRV 2010/53830. (coordinator/researcher),,

@@ -60,6 +60,8 @@ Page files in `pages/` (`index.md`, `publications.md`, etc.) are renderers only.
   - `affiliation,department,profile_url`
 - `contents/data/cv_employments.csv`
   - `period,title,org,links`
+- `contents/data/cv_international.csv`
+  - `period,title,org,location,links,notes`
 - `contents/data/cv_awards.csv`
   - `year,item,links`
 
@@ -68,7 +70,23 @@ For CSV files that include `links`, use:
 - single link: `Label|https://example.com`
 - multiple links: `Label A|https://a.com;Label B|https://b.com`
 - publications style (recommended, matching legacy site): `web|...`, `doi|...`, `pdf|...`
-- publications fallback rendering: if `links` is empty, the page auto-generates `web`, `scholar`, and `diva` links from the title query.
+- publications fallback rendering: if `links` is empty, the page auto-generates `scholar` and `diva` links from the title query.
+
+## Source sync
+
+Sync all content datasets from `https://addekth.github.io/publications/`:
+
+```bash
+python3 script/sync_source_data.py
+```
+
+Use a local HTML snapshot instead of fetching:
+
+```bash
+python3 script/sync_source_data.py --input-html /tmp/addekth_publications.html
+```
+
+The script writes a timestamped source snapshot and a JSON audit report in `/tmp`.
 
 ## Data migration helper
 
@@ -83,9 +101,12 @@ ruby script/migrate_yaml_to_csv.rb
 ```bash
 ruby script/validate_publications.rb
 ruby script/check_links.rb
-# Optional for offline environments:
-ALLOW_OFFLINE=1 ruby script/check_links.rb
 ```
+
+`script/check_links.rb` scans all CSV files that contain a `links` column and reports:
+- `OK`: reachable link
+- `RESTRICTED`: rate-limited, blocked, or otherwise non-deterministic network result
+- `INVALID_FORMAT`: malformed URL/link pair (blocking)
 
 ## CI and deployment
 

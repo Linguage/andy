@@ -1,13 +1,23 @@
 period,title,links
-2027,Co-organiser of SHMII-14 minisymposium on railway infrastructures (Naples),""
-2026,Co-organiser of EURODYN 2026 minisymposium on railway infrastructure dynamics,""
-2025,Co-organiser of EVACES 2025 special session on railway bridges,""
-2025,Co-organiser of COMPDYN 2025 minisymposium on moving loads and bridge dynamics,""
-2023,Co-organiser of EURODYN 2023 minisymposium on railway infrastructures,""
-2022,Editorial board member for Railways 2022 international conference,""
-2021-present,Invited Expert in CEN/TC 250 bridge-rolling stock dynamic interface group,""
-2021,External examiner of PhD midterm review at the University of Porto,""
-2019,Member of scientific committee for IRAS 2019,""
-2016,Chair and scientific committee member at IABSE Congress 2016 (Stockholm),""
-2015-present,Delegate in CEN track and railway applications standardization group,""
-2013-2023,Project leader for railway bridge standards development at Trafikverket,""
+2027,"Co-organiser of MS on Experimental and Numerical Analysis of Railway Infrastructures. 14 th Int. Conf. on Structural Health Monitoring of Intelligent Infrastructure SHMII-14 , 29 June – 2 July 2027, Naples, Italy",SHMII-14|https://shmii-14.com/
+2026,"Co-organiser of MS on Dynamics of railway infrastructures. Eurodyn 2026 , 27 th Sept – 1 st Oct 2026, Hannover, Germany",Eurodyn 2026|https://eurodyn2026.org/
+2025,"Co-organiser of SS18: Railway bridges. EVACES 2025 , Porto, Portugal, 2-4 July 2025.",EVACES 2025|https://www.fe.up.pt/evaces2025/conference/mini-symposia/
+2025,"Co-organiser of MS50: Moving Loads and Interaction Problems in Bridge Dynamics. COMPDYN 2025 , Rhodes Island, Greece, 15-18 June 2025.",COMPDYN 2025|https://2025.compdyn.org/content/accepted-minisymposia
+2023,"Co-organiser of MS9: Dynamics of railway infrastructures. Eurodyn 2023 , Delft, The Netherlands, 2-5 July 2023 , link",Eurodyn 2023|https://eurodyn2023.dryfta.com/;link|https://eurodyn2023.dryfta.com/accommodations/120-dynamics-of-railway-infrastructures
+2022,"Member of the editorial board. Railways 2022, 5 th International Conference on Railway Technology, 22-25 August, Montpellier, France . link , papers",link|https://www.railwaysconference.com/;papers|http://dx.doi.org/10.4203/ccc.1
+2021 -,"Invited Expert. CEN/TC 250/SC 1/WG 3/TG DIBRST, Dynamic Interface between Bridges and Rolling Stock.",
+2021,"External Examiner. PhD Midterm research thesis project, Marco Antonio Peixer Miguel de Antonio. University of Porto, 2021-11-22 . link",link|https://sigarra.up.pt/feup/en/noticias_geral.ver_noticia?p_nr=125130
+2021,"Co-chair of special session (S9: Railway Infrastructures), Int. Conference on Computational & Experimental Engineering and Sciences ICCES 2022 . Dubai (online), 8-12 January 2022.",ICCES 2022|https://link.springer.com/book/10.1007/978-3-031-02097-1
+2021,"Co-chair of special session (S25: Railway Infrastructures), Int. Conference on Computational & Experimental Engineering and Sciences ICCES 2021 . Online, 6-10 January 2021 .",ICCES 2021|https://link.springer.com/book/10.1007/978-3-030-64690-5
+2020 - 2021,Reference group member. Pre-study of Dynamic Amplification Factor for Existing Road Bridges. link,link|https://research.chalmers.se/en/publication/528269
+2019,"Member of the scientific committee, 1 st Int. Symposium on Risk Analysis and Safety of Complex Structures and Components IRAS 2019 . Porto, Portugal, 1-2 July 2019 .",IRAS 2019|https://web.fe.up.pt/~iras2019/
+2016,"Chair and member of the scientific committee, 19 th Congress of IABSE, Challenges in Design and Construction of an Innovative and Sustainable Built Environment IABSE2016 , Stockholm, Sweden, 21-23 September 2016.",IABSE2016|https://doi.org/10.1080/10168664.2016.11985590
+2016 - 2017,Reference group member. Analys av skaleffekten hos bergsprickors skjuvhållfasthet och styvhet genom numerisk modellering. BeFo-572 .,BeFo-572|https://www.befoonline.org/forskning
+2016,"Main Examiner. Ph.D. defence, Joãn Miguel dos Santos Pereira da Rocha. University of Porto, 2016-04-28. link , download",link|https://sigarra.up.pt/feup/pt/teses.tese?P_ALUNO_ID=112416&p_processo=18212;download|https://hdl.handle.net/10216/83809
+2015 - 2021,Reference group member. Utveckling av metodik för inspektion av tunnlar med innertak . BeFo-357,BeFo-357|http://www.befoonline.org/forskning/utveckling-av-metodik-for-inspektion-av-__418
+2015 -,"Delegate. CEN/TC 256/SC 1/WG 46, Railway Applications – Ballastless track systems. EN 16432-1:2017 , EN 16432-2:2017 , EN 16432-3:2021",EN 16432-1:2017|https://www.sis.se/produkter/maskinsakerhet-3f1691ec/jarnvagar/ss-en-16432-12017/;EN 16432-2:2017|https://www.sis.se/produkter/anlaggningsarbete/jarnvagar/ss-en-16432-22017/;EN 16432-3:2021|https://www.sis.se/produkter/anlaggningsarbete/jarnvagar/ss-en-16432-32021/
+2015,"Keynote lecture. Dynamics of railway bridges: analysis and verification by field tests. EVACES'15 , Dübendorf, Switzerland, 19-21 October 2015.",EVACES'15|https://www.matec-conferences.org/evaces15#International-Scientific-Committee
+2014,"Faculty examiner. Licentiate seminar, Tarek Edrees Saaed. Luleå University of Technology, 2014-11-20 . link",link|http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-26719
+2013 - 2017,"Delegate. CEN TC250/SC1/WG3/TG-TBI, Railway Applications – Infrastructure – Track-Bridge Interaction. CEN/TR 17231:2018",CEN/TR 17231:2018|https://www.en-standard.eu/pd-cen-tr-17231-2018-eurocode-1-actions-on-structures-traffic-loads-on-bridges-track-bridge-interaction/
+2013 - 2016,"Special advisor on Railway Bridges. Work group High-Speed Rail, collaboration between Sweden and Japan regarding high-speed railway infrastructure technology .",
+2013 - 2023,"Project Leader – Railway Bridges. Development of technical standards for high-speed railways, Trafikverket.",

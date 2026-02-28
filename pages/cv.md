@@ -10,6 +10,7 @@ redirect_from:
 
 {% assign summary_block = site.blocks | where: 'slug', 'cv_summary' | first %}
 {% assign general = site.data.cv_general | first %}
+{% assign international_items = site.data.cv_international %}
 
 {% if summary_block %}
 <section class="card">
@@ -46,6 +47,24 @@ redirect_from:
       {% for item in site.data.cv_awards %}
         <li>
           <strong>{{ item.year }}</strong> - {{ item.item }}
+          {% include item_links.html links=item.links %}
+        </li>
+      {% endfor %}
+    </ul>
+  </article>
+
+  <article class="card">
+    <h2>International</h2>
+    <ul class="clean-list">
+      {% for item in international_items %}
+        <li>
+          <strong>{{ item.period }}</strong> - {{ item.title }}
+          {% if item.org != '' %}
+            <div class="meta">{{ item.org }}</div>
+          {% endif %}
+          {% if item.location != '' %}
+            <div class="meta">{{ item.location }}</div>
+          {% endif %}
           {% include item_links.html links=item.links %}
         </li>
       {% endfor %}

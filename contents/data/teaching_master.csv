@@ -1,6 +1,23 @@
 name,status,period,links
-Bengtsson A. & Nexen O.,Dynamic analysis of portal frame bridges for high-speed railway traffic,2025,""
-Masri Y. & Baghdy Y.,Load carrying capacity assessment of stone masonry arch bridges,2024,""
-Asaad M.,Improved bridge load capacity via train-track-bridge interaction and measured track irregularities,2023,""
-Nolinder M.,Combined response analysis of railway bridge and track with parametric finite element model,2023,""
-Ciku A. & Gavriliuc V.,Spectral density approach for dynamic analysis of high-speed railway bridges,2022,""
+"Bengtsson, A., Nexén, O.",Dynamic analysis of portal frame bridges for high-speed railway traffic.,2025,ABE-MBT-25366|https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-365081
+"Masri, Y., Baghdy, Y.",Load carrying capacity assessment of stone masonry arch bridges.,2024,ABE-MBT-24518|https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-349250
+"Asaad, M.","Improved Bridge Load Capacity via Dynamic Train-Track-Bridge Interaction, assessing the dynamic amplification factor caused by measured track irregularities for rail freight transport.",2023,ABE-MBT-23565|https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-337523
+"Nolinder, M.","Analysis of combined response of railway bridge and track, a parametric finite element model of the bridge across Bryngeån.",2023,ABE-MBT-23477|https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-333631
+"Çiku, A., Gavriliuc, V.",Spectral density approach for dynamic analysis of high-speed railway bridges.,2022,ABE-MBT-22451|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-314978
+"Elm-Dahlman, R., Lundberg, E.","Parametric Studies of Train-Track-Bridge Interaction, An evaluation of the dynamic amplification due to rail irregularities for freight transport.",2021,ABE-MBT-21528|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-301309
+"Ljung, J.","Parametric Studies of Soil-Steel Composite Bridges for Dynamic Loads, a Frequency Domain Approach using 3D Finite Element Modelling.",2019,ABE-MBT-19441|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-254343
+"Barenys, A.A., Thomas, J.",Evaluation of 3D dynamic effects induced by high-speed trains on double-track slab bridges.,2016,BKN/EX-487-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-188850
+"Östlund, J.",Soil-structure interaction of end-frames for high-speed railway bridges.,2016,BKN/EX-484-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-188786
+"Sánchez, D.M., Nikolić, M.",Comparison of ballasted and ballastless bridges for high speed trains.,2016,BKN/EX-481-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-188524
+"Borg, R., Dymén, O.","Pilot Testing of a Hydraulic Bridge Exciter. (nominated to ByggOpus, 2016)",2015,BKN/EX-460-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-170113
+"Aagah, O., Aryannejad, S.","Dynamic analysis of soil-steel composite railway bridges, FE-modeling in Plaxis.",2014,BKN/EX-436-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-155515
+"Woll, J.","Soil Steel Composite Bridges for High-Speed Railways, 2D FEM-analysis of the Björnbo Bridge.",2014,BKN/EX-421-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-153227
+"Nuno, K.",Damage detection of a Steel Truss Bridge Using Frequency Response Function Curvature Method.,2013,BKN/R-148-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-139067
+"Hansson, D.","Nonlinear FEM load bearing capacity assessment of a concrete bridge subjected to support settlements, Case of a continuous slab bridge with angled supports.",2013,BKN/EX-398-SE|https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-138515
+"Bornet, L.","Numerical and experimental analyses of a truss bridge. (Awarded with Rambölls Prize for best MSc-Thesis in Bridge Engineering, 2013)",2013,BKN/EX-383-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-125346
+"Mellat, P.","Dynamic analysis of soil-steel composite bridges for railway traffic, Case study of a bridge in Märsta, using field measurements and FE-Analysis.",2012,BKN/EX-373-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-125342
+"Gillet, G.","Simply supported composite railway bridges, a comparison of ballasted and ballastless alternatives.",2010,BKN-EX-306-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-36359
+"Janhunen, T., Mikus, M.",Dynamisk analys och utmattningskontroll med hjälp av fältmätningar och FEM.,2010,BKN-EX-298-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-37017
+"Thylén, C.",Förenklad numerisk analys av hängbroars verkningssätt.,2009,BKN/EX-275-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-36952
+"Bjurström, H., Lasell, J.",Capacity assessment of a single span arch bridge with backfill.,2009,BKN/EX-271-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-37023
+"Eklund, A.",Measurement and Evaluation of cable Forces in the Älvsborg Bridge.,2006,BKN/EX-235-SE|http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-36948

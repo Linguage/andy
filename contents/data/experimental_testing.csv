@@ -1,62 +1,62 @@
 date,year,location,title,notes,links
-2026-02,2026,Sodertalje,GC-bro blindtarmen,Impact hammer testing.,map|https://maps.app.goo.gl/sV5YY28qH5gFLe3w8
-2025-06,2025,Strangsjo,VP NSP/USP bridges,"Slab bridge and portal frame bridge, long-term monitoring system with 4 strain gauges and 6 accelerometers.","map|https://www.google.com/maps/place/59%C2%B013%2709.6%22N+17%C2%B018%2715.4%22E/@59.2193444,17.3042944,17z/data=!3m1!4b1!4m4!3m3!8m2!3d59.2193444!4d17.3042944;map_2|https://www.google.com/maps/place/59%C2%B013%2706.8%22N+17%C2%B018%2715.8%22E/@59.2185602,17.3028573,17z/data=!4m4!3m3!8m2!3d59.2185556!4d17.3043889?hl=en&entry=ttu&g_ep=EgoyMDI1MDUxMy4wIKXMDSoASAFQAw%3D%3D"
-2025-06,2025,Harestorp,Soil-steel composite bridge,Measured acceleration during train passages and impact hammer tests.,map|https://maps.app.goo.gl/4Wrk5wHqeXotkr8u9
-2025-06,2025,Sodra Orsjo,Soil-steel composite bridge,Measured acceleration during train passages and impact hammer tests.,map|https://maps.app.goo.gl/8Gi6QRWyNGBpdUdY7
-2024-12,2024,Sigtuna,Bro over Hatunaviken vid Erikssund,Dynamic testing using an impact hammer and passing cars.,map|https://maps.app.goo.gl/PD1EKmM6NZ6RzPBq6
-2024-11,2024,Berlin,Shake-table test,"Dynamic testing of ballast. Part of InBridge4EU/WP5, coordinated by Dr.-Ing. Matthias Baessler.",map|https://maps.app.goo.gl/6sQvw9n9e6EzTbyo9
-2024-09,2024,Lulea,Trough bridge,Dynamic testing using an impact hammer and a hydraulic actuator.,map|https://maps.app.goo.gl/hA1MdrBTAN5qQ7Bk8;trafikverket|https://www.trafikverket.se/trafikinfo/tag/Brostorningar/lagesrapport-jarnvagsbroar/;ltu|https://www.ltu.se/en/research/research-subjects/structural-engineering/research-areas/structures/structures/2024-05-10-trough-bridge-project
-2024-06,2024,Stockholm,Footbridge at Fysikcentrum,Dynamic tests with walking pedestrians.,map|https://maps.app.goo.gl/QfCT6dRHMFMQeMrr6
-2024-06,2024,Norrviken,Noise barrier,Dynamic testing using an impact hammer.,map|https://maps.app.goo.gl/3JUezzyqTp9uMyLd9
-2023-12,2023,Lulea,Trough bridge,Dynamic testing using an impact hammer.,map|https://maps.app.goo.gl/7P6Z7kXd3Y3QGXq98;ltu|https://www.ltu.se/en/research/research-subjects/structural-engineering/research-areas/structures/structures/2024-05-10-trough-bridge-project
-2023-10,2023,Strangsjo,VP NSP/USP bridges,"Slab bridge and portal frame bridge, impact hammer tests and dynamic response from passing trains using a trigger system.",map|https://maps.app.goo.gl/BL9qieJqZbYQt3fY9
-2023-07,2023,Roslagsbanan,Bro over Bjornnasvagen,"Portal frame bridge, impact hammer tests and dynamic response from passing trains using a trigger system.",map|https://maps.app.goo.gl/W2boqxxFu2dbCMr86
-2023-03,2023,Linkoping,Footbridge at Tinnerbacken,Vibration testing during construction of a timber footbridge.,""
-2021-09,2021,Alvnas Ekero,Vibratory plate compaction,Dynamic testing of vibro-compactor and dynamic measurements for SASW.,""
-2021-08,2021,Hamar Norway,Footbridge Stela Bru,Vibration testing during construction of a timber footbridge.,map|https://maps.app.goo.gl/XmRjkFqE6YgvTpA56
-2021-08,2021,Hamar Norway,Footbridge at Brumunda,In-service vibration testing of a timber footbridge.,""
-2021-06,2021,Bryngean,Steel-concrete composite bridge,"Measured acceleration during train passages and forced vibration tests, with and without external viscous dampers. Installation of long-term monitoring system.",map|https://maps.app.goo.gl/9SgJbx8Av9YQgrqM7
-2020-09,2020,Bryngean,Steel-concrete composite bridge,"Measured acceleration during train passages and forced vibration tests, with and without external viscous dampers.",map|https://maps.app.goo.gl/9SgJbx8Av9YQgrqM7
-2020-06,2020,Banafjalsan,Steel-concrete composite bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/g2i8xJ3FkvXo1HZXA
-2020-06,2020,Bryngean,Steel-concrete composite bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/9SgJbx8Av9YQgrqM7
-2020-06,2020,Sidensjovagen,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/LYUvoCEwBXuhQxYU8
-2020-06,2020,Sodra Kungsvagen,Portal frame bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/JzaAnTbSL8HKCbPr8
-2020-06,2020,Norra Kungsvagen,Portal frame bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/AMABn7xg6dnMSPSd7
-2019-06,2019,Taxinge Mariefred,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/D4gbdTii3QvNv8vT7
-2019-06,2019,Sveavagen Eskilstuna,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/69HSBxXQ2j6Xrw4M8
-2019-06,2019,Vasavagen Eskilstuna,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/Ev58ANg2V4j8M8rx8
-2019-06,2019,Stockholm,Footbridge at Fysikcentrum,Dynamic tests with walking pedestrians.,map|https://maps.app.goo.gl/CV7R6caNoLBh7QAn9
-2019-06,2019,Hasthovsgatan Vasteras,Simply supported concrete bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/t6C2YQpuMeRth9x29
-2019-05,2019,Bodavagen Enkoping,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/xztkxp26Q4VsoCMr8
-2019-05,2019,Fanna Enkoping,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/JLFK2AB6Yk4xBr4h9
-2019-05,2019,Gesallgatan Enkoping,Portal frame bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/LjkUKA1Usz2G49Ag8
-2019-05,2019,Balsta,Enkopingsvagen bridge,Measured acceleration during train passages and forced vibration tests.,map|https://maps.app.goo.gl/xRT9hoEt2UEJgBmd8
-2018-09,2018,Sodra Orsjo,Soil-steel composite bridge,"Measured strain, displacement and acceleration during train passages and forced vibration tests.",map|https://maps.app.goo.gl/tQDS73s2zaYAE4RH8
-2018-09,2018,Harestorp,Soil-steel composite bridge,"Measured strain, displacement and acceleration during train passages and forced vibration tests.",map|https://maps.app.goo.gl/s6ztHUhN13DKohmN7
-2017-09,2017,Marsta,Soil-steel composite bridge,"Measured strain, displacement and acceleration during train passages and forced vibration tests.",map|https://maps.app.goo.gl/TnjWqGVAhJj29k8k8
-2017-02,2017,Barkarby,Footbridge,Dynamic tests with pedestrians.,map|https://maps.app.goo.gl/PGeFDeLe9sXr4AgY6
-2016-06,2016,Norrtalje,Hollow core slab deck,Dynamic tests at Contiga Norrtalje.,""
-2015-10,2015,Degermyran,Portal frame railway bridge,Full-scale dynamic tests using a hydraulic bridge exciter.,map|https://maps.app.goo.gl/X7o5rwCxU2u1KZkh8
-2015-10,2015,Faresmyran,Portal frame railway bridge,Full-scale dynamic tests using a hydraulic bridge exciter.,map|https://maps.app.goo.gl/HnE78a9x6kSMF9ydA
-2015-09,2015,Aspan,Concrete railway bridge,Full-scale dynamic tests using a hydraulic bridge exciter.,map|https://maps.app.goo.gl/sTVrGHs4Lh1Pg7xQ9
-2015-09,2015,Barkarby,Footbridge,Dynamic tests with walking pedestrians.,map|https://maps.app.goo.gl/xY7QyxD38RKEoT6f7
-2015-06,2015,Stockholm,Footbridge at Fysikcentrum,Dynamic tests with walking pedestrians.,map|https://maps.app.goo.gl/TReJ4rRM9C1w5VnPA
-2015-06,2015,Pershagen,Concrete railway bridge,Full-scale dynamic tests using a hydraulic bridge exciter.,map|https://maps.app.goo.gl/9XLzBLybE4vif2u1A
-2014-06,2014,Sweden,Concrete slabs with shotcrete,Static (ULS) and dynamic (impact) load tests.,""
-2013-08,2013,Aby alv,Steel truss bridge,Dynamic full-scale testing using a rotating mass exciter.,map|https://maps.app.goo.gl/uP1AdTE5ZQfGN8Cn7
-2012-11,2012,Ljungan vid Alby,Tied-arch railway bridge,Measured strain and acceleration of hangers. Full-scale test of a TMD-system.,map|https://maps.app.goo.gl/sY2b4KdKxkj7W1vB8
-2012-09,2012,Dublin,Bi-directional multi-passive tuned mass damper,Experimental testing at Trinity College Dublin Ireland.,""
-2011-06,2011,Stockholm,Footbridge at Fysikcentrum,Dynamic tests with walking pedestrians.,map|https://maps.app.goo.gl/TReJ4rRM9C1w5VnPA
-2011-05,2011,Soderstrom Bridge,Steel grillage railway bridge,"Strain measurements for fatigue assessment (hot-spot method), before and after geometric improvement.",map|https://maps.app.goo.gl/YWwQTrFW4aYdHs4WA
-2010-12,2010,Soderstrom Bridge,Steel grillage railway bridge,Strain measurements for fatigue assessment setup II.,map|https://maps.app.goo.gl/YWwQTrFW4aYdHs4WA
-2010-05,2010,Marsta,Soil-steel composite bridge,"Measured strain, displacement and acceleration during train passages.",map|https://maps.app.goo.gl/TnjWqGVAhJj29k8k8
-2009-12,2009,Marsta,Soil-steel composite bridge,"Measured strain, displacement and acceleration during train passages.",map|https://maps.app.goo.gl/TnjWqGVAhJj29k8k8
-2008-08,2008,Soderstrom Bridge,Steel grillage railway bridge,Strain measurements for fatigue assessment setup I.,map|https://maps.app.goo.gl/YWwQTrFW4aYdHs4WA
-2007-12,2007,Strangnas railway tunnel,Railway tunnel,Measured air-pressure from passing trains and vibrations on an emergency door.,map|https://maps.app.goo.gl/74A1Z6A2C8F8E66m7
-2006-10,2006,Stockholm,Footbridge at Fysikcentrum,Dynamic tests with walking pedestrians.,map|https://maps.app.goo.gl/TReJ4rRM9C1w5VnPA
-2006-07,2006,Tidan and Osan,Two railway bridges,Measured acceleration and end-rotations during high-speed train passages (Grona Taget).,map|https://maps.app.goo.gl/QrjCtE7WQfVig8ii8
-2006-03,2006,Alvsborg Bridge,Suspension bridge,Vibration measurements including detailed measurements of hangers.,map|https://maps.app.goo.gl/uo7kkM3oc4fCsQFG6
-2005-10,2005,Alvsborg Bridge,Suspension bridge,Vibration measurements to determine dynamic performance and cable forces.,map|https://maps.app.goo.gl/uo7kkM3oc4fCsQFG6
-2005-2011,2005,Old Arsta railway Bridge,Concrete arch bridge with backfill,"Strain measurements in 25 setups for model calibration and verification before, during and after strengthening.",map|https://maps.app.goo.gl/r5tGe9QYKsK8a3xP6
-2005-05,2005,Svinesund Bridge,Concrete arch bridge,Load testing.,map|https://maps.app.goo.gl/5k8mKf7xEfH4jaAK8
-2003-06,2003,Ljungan vid Alby,Tied-arch railway bridge,Measured strain and acceleration of hangers.,map|https://maps.app.goo.gl/sY2b4KdKxkj7W1vB8
+2026-02,2026,Sodertalje,GC-bro blindtarmen,Impact hammer testing.,"""B56 gångbro blindtarmen""|https://www.google.com/maps/place/59%C2%B011'38.9%22N+17%C2%B037'51.3%22E"
+2025-06,2025,Strangsjo,VP NSP/USP bridges,"Slab bridge and portal frame bridge, long-term monitoring system with 4 strain gauges and 6 accelerometers.",3500-256-1|https://www.google.com/maps/place/58%C2%B053'43.9%22N+16%C2%B011'53.3%22E;3500-256-2|https://www.google.com/maps/place/58%C2%B053'43.9%22N+16%C2%B011'53.3%22E
+2025-06,2025,Harestorp,Soil-steel composite bridge,Measured acceleration during train passages and impact hammer tests.,3500-5621-1|https://www.google.com/maps/place/56%C2%B055'25.0%22N+14%C2%B026'30.0%22E
+2025-06,2025,Sodra Orsjo,Soil-steel composite bridge,Measured acceleration during train passages and impact hammer tests.,3500-5149-1|https://www.google.com/maps/place/56%C2%B041'03.3%22N+15%C2%B043'51.3%22E
+2024-12,2024,Sigtuna,Bro over Hatunaviken vid Erikssund,Dynamic testing using an impact hammer and passing cars.,100-730-1|http://www.google.se/maps/place/59%C2%B038'26.1%22N+17%C2%B036'35.2%22E/
+2024-11,2024,Berlin,Shake-table test,"Dynamic testing of ballast. Part of InBridge4EU/WP5, coordinated by Dr.-Ing. Matthias Baessler.",BAM|https://www.bam.de/Navigation/EN/About-us/Organisation/President/Department-7/Division-72/division72.html;Berlin|https://www.google.se/maps/place/52%C2%B026'34.8%22N%2013%C2%B017'15.7%22E
+2024-09,2024,Lulea,Trough bridge,Dynamic testing using an impact hammer and a hydraulic actuator.,LTU|https://www.google.com/maps/place/65%C2%B037'12.1%22N+22%C2%B008'31.7%22E/;link|https://www.ltu.se/en/research/research-subjects/structural-engineering/research-areas/structures/structures/2024-05-10-trough-bridge-project
+2024-06,2024,Stockholm,Footbridge at Fysikcentrum,Dynamic tests with walking pedestrians.,180-11952-1|https://www.google.com/maps/place/59%C2%B021'10.5%22N+%2018%C2%B03'44.4%22E
+2024-06,2024,Norrviken,Noise barrier,Dynamic testing using an impact hammer.,100-2416-4|https://www.google.com/maps/place/59%C2%B027'27.6%22N+17%C2%B055'29.2%22E/
+2023-12,2023,Lulea,Trough bridge,Dynamic testing using an impact hammer.,LTU|https://www.google.com/maps/place/65%C2%B037'12.1%22N+22%C2%B008'31.7%22E/;link|https://www.ltu.se/en/research/research-subjects/structural-engineering/research-areas/structures/structures/2024-05-10-trough-bridge-project
+2023-10,2023,Strangsjo,VP NSP/USP bridges,"Slab bridge and portal frame bridge, impact hammer tests and dynamic response from passing trains using a trigger system.",3500-256-1|https://www.google.com/maps/place/58%C2%B053'43.9%22N+16%C2%B011'53.3%22E;3500-256-2|https://www.google.com/maps/place/58%C2%B053'43.9%22N+16%C2%B011'53.3%22E
+2023-07,2023,Roslagsbanan,Bro over Bjornnasvagen,"Portal frame bridge, impact hammer tests and dynamic response from passing trains using a trigger system.",30-12627-1|https://www.google.com/maps/place/59%C2%B021'22.4%22N+18%C2%B003'36.4%22E
+2023-03,2023,Linkoping,Footbridge at Tinnerbacken,Vibration testing during construction of a timber footbridge.,
+2021-09,2021,Alvnas Ekero,Vibratory plate compaction,Dynamic testing of vibro-compactor and dynamic measurements for SASW.,
+2021-08,2021,Hamar Norway,Footbridge Stela Bru,Vibration testing during construction of a timber footbridge.,"Hamar, Norway|https://www.google.com/maps/place/60%C2%B052'36.8%22N%2010%C2%B055'55.4%22E"
+2021-08,2021,Hamar Norway,Footbridge at Brumunda,In-service vibration testing of a timber footbridge.,
+2021-06,2021,Bryngean,Steel-concrete composite bridge,"Measured acceleration during train passages and forced vibration tests, with and without external viscous dampers. Installation of long-term monitoring system.",3500-5288-1|https://www.google.com/maps/place/63%C2%B018.789'N%2018%C2%B054.404'E
+2020-09,2020,Bryngean,Steel-concrete composite bridge,"Measured acceleration during train passages and forced vibration tests, with and without external viscous dampers.",3500-5288-1|https://www.google.com/maps/place/63%C2%B018.789'N%2018%C2%B054.404'E
+2020-06,2020,Banafjalsan,Steel-concrete composite bridge,Measured acceleration during train passages and forced vibration tests.,3500-5338-1|https://www.google.com/maps/place/63%C2%B018'58.9%22N%2018%C2%B059'49.3%22E
+2020-06,2020,Bryngean,Steel-concrete composite bridge,Measured acceleration during train passages and forced vibration tests.,3500-5288-1|https://www.google.com/maps/place/63%C2%B018.789'N%2018%C2%B054.404'E
+2020-06,2020,Sidensjovagen,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,3500-5689-1|https://www.google.com/maps/place/63%C2%B013.024'N%2018%C2%B028.530'E
+2020-06,2020,Sodra Kungsvagen,Portal frame bridge,Measured acceleration during train passages and forced vibration tests.,3500-5791-1|https://www.google.com/maps/place/63%C2%B037.707'N%2019%C2%B052.817'E
+2020-06,2020,Norra Kungsvagen,Portal frame bridge,Measured acceleration during train passages and forced vibration tests.,3500-5793-1|https://www.google.com/maps/place/63%C2%B038'02.6%22N%2019%C2%B055'17.2%22E
+2019-06,2019,Taxinge Mariefred,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,3500-4253-1/2|https://www.google.com/maps/place/59%C2%B013'10.2%22N%2017%C2%B017'43.3%22E/
+2019-06,2019,Sveavagen Eskilstuna,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,3500-4268-1|https://www.google.com/maps/place/59%C2%B021'36.4%22N%2016%C2%B031'54.7%22E/
+2019-06,2019,Vasavagen Eskilstuna,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,3500-4452-1|https://www.google.com/maps/place/59%C2%B021'49.7%22N%2016%C2%B031'33.8%22E/
+2019-06,2019,Stockholm,Footbridge at Fysikcentrum,Dynamic tests with walking pedestrians.,180-11952-1|https://www.google.com/maps/place/59%C2%B021'10.5%22N+%2018%C2%B03'44.4%22E
+2019-06,2019,Hasthovsgatan Vasteras,Simply supported concrete bridge,Measured acceleration during train passages and forced vibration tests.,3500-2940-1/2|https://www.google.com/maps/place/59%C2%B037'38.0%22N%2016%C2%B034'2.5%22E/
+2019-05,2019,Bodavagen Enkoping,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,3500-4477-1/2|https://www.google.com/maps/place/59%C2%B038'55.5%22N+17%C2%B003'14.4%22E/
+2019-05,2019,Fanna Enkoping,Continuous concrete bridge,Measured acceleration during train passages and forced vibration tests.,3500-4565-1/2|https://www.google.com/maps/place/59%C2%B038'34.8%22N+17%C2%B005'58.4%22E/
+2019-05,2019,Gesallgatan Enkoping,Portal frame bridge,Measured acceleration during train passages and forced vibration tests.,3500-2931-1/2|https://www.google.com/maps/place/59%C2%B038'52.4%22N+17%C2%B004'01.8%22E/
+2019-05,2019,Balsta,Enkopingsvagen bridge,Measured acceleration during train passages and forced vibration tests.,3500-4482-1/2|https://www.google.com/maps/place/59%C2%B034'41.8%22N+17%C2%B030'42.5%22E/
+2018-09,2018,Sodra Orsjo,Soil-steel composite bridge,"Measured strain, displacement and acceleration during train passages and forced vibration tests.",3500-5149-1|https://www.google.com/maps/place/56%C2%B041'03.3%22N+15%C2%B043'51.3%22E
+2018-09,2018,Harestorp,Soil-steel composite bridge,"Measured strain, displacement and acceleration during train passages and forced vibration tests.",3500-5621-1|https://www.google.com/maps/place/56%C2%B055'25.0%22N+14%C2%B026'30.0%22E
+2017-09,2017,Marsta,Soil-steel composite bridge,"Measured strain, displacement and acceleration during train passages and forced vibration tests.",3500-4538-1|https://www.google.com/maps/place/59%C2%B041'5.1%22N+%2017%C2%B048'53.2%22E
+2017-02,2017,Barkarby,Footbridge,Dynamic tests with pedestrians.,9826-14-450|https://www.google.com/maps/place/59%C2%B024'52.5%22N+%2017%C2%B050'6.5%22E
+2016-06,2016,Norrtalje,Hollow core slab deck,Dynamic tests at Contiga Norrtalje.,
+2015-10,2015,Degermyran,Portal frame railway bridge,Full-scale dynamic tests using a hydraulic bridge exciter.,3500-5772-1|https://www.google.com/maps/place/63%C2%B024'25.2%22N+%2019%C2%B011'30.6%22E
+2015-10,2015,Faresmyran,Portal frame railway bridge,Full-scale dynamic tests using a hydraulic bridge exciter.,3500-5302-1|https://www.google.com/maps/place/63%C2%B018'44.5%22N+%2018%C2%B052'38.6%22E
+2015-09,2015,Aspan,Concrete railway bridge,Full-scale dynamic tests using a hydraulic bridge exciter.,3500-5778-1|https://www.google.com/maps/place/63%C2%B030'28.7%22N+%2019%C2%B021'15.9%22E
+2015-09,2015,Barkarby,Footbridge,Dynamic tests with walking pedestrians.,9826-14-450|https://www.google.com/maps/place/59%C2%B024'52.5%22N+%2017%C2%B050'6.5%22E
+2015-06,2015,Stockholm,Footbridge at Fysikcentrum,Dynamic tests with walking pedestrians.,180-11952-1|https://www.google.com/maps/place/59%C2%B021'10.5%22N+%2018%C2%B03'44.4%22E
+2015-06,2015,Pershagen,Concrete railway bridge,Full-scale dynamic tests using a hydraulic bridge exciter.,3500-4289-1|https://www.google.com/maps/place/59%C2%B09'18.2%22N+%2017%C2%B037'52.2%22E
+2014-06,2014,Sweden,Concrete slabs with shotcrete,Static (ULS) and dynamic (impact) load tests.,
+2013-08,2013,Aby alv,Steel truss bridge,Dynamic full-scale testing using a rotating mass exciter.,3500-1940-1|https://www.google.com/maps/place/65%C2%B024'58.5%22N+%2020%C2%B022'25.2%22E
+2012-11,2012,Ljungan vid Alby,Tied-arch railway bridge,Measured strain and acceleration of hangers. Full-scale test of a TMD-system.,3500-1587-1|https://www.google.com/maps/place/62%C2%B027'51.5%22N+15%C2%B026'58.4%22E/
+2012-09,2012,Dublin,Bi-directional multi-passive tuned mass damper,Experimental testing at Trinity College Dublin Ireland.,
+2011-06,2011,Stockholm,Footbridge at Fysikcentrum,Dynamic tests with walking pedestrians.,180-11952-1|https://www.google.com/maps/place/59%C2%B021'10.5%22N+%2018%C2%B03'44.4%22E
+2011-05,2011,Soderstrom Bridge,Steel grillage railway bridge,"Strain measurements for fatigue assessment (hot-spot method), before and after geometric improvement.",3500-4065-1|https://www.google.com/maps/place/59%C2%B019'18.6%22N+%2018%C2%B04'2.5%22E
+2010-12,2010,Soderstrom Bridge,Steel grillage railway bridge,Strain measurements for fatigue assessment setup II.,3500-4065-1|https://www.google.com/maps/place/59%C2%B019'18.6%22N+%2018%C2%B04'2.5%22E
+2010-05,2010,Marsta,Soil-steel composite bridge,"Measured strain, displacement and acceleration during train passages.",3500-4538-1|https://www.google.com/maps/place/59%C2%B041'5.1%22N+%2017%C2%B048'53.2%22E
+2009-12,2009,Marsta,Soil-steel composite bridge,"Measured strain, displacement and acceleration during train passages.",3500-4538-1|https://www.google.com/maps/place/59%C2%B041'5.1%22N+%2017%C2%B048'53.2%22E
+2008-08,2008,Soderstrom Bridge,Steel grillage railway bridge,Strain measurements for fatigue assessment setup I.,3500-4065-1|https://www.google.com/maps/place/59%C2%B019'18.6%22N+%2018%C2%B04'2.5%22E
+2007-12,2007,Strangnas railway tunnel,Railway tunnel,Measured air-pressure from passing trains and vibrations on an emergency door.,100-98-1|https://www.google.com/maps/place/59%C2%B022'6.4%22N+%2017%C2%B02'6.9%22E
+2006-10,2006,Stockholm,Footbridge at Fysikcentrum,Dynamic tests with walking pedestrians.,180-11952-1|https://www.google.com/maps/place/59%C2%B021'10.5%22N+%2018%C2%B03'44.4%22E
+2006-07,2006,Tidan and Osan,Two railway bridges,Measured acceleration and end-rotations during high-speed train passages (Grona Taget).,3500-618-1|https://www.google.com/maps/place/58%C2%B034'32.0%22N+%2014%C2%B00'47.8%22E;3500-625-1|https://www.google.com/maps/place/58%C2%B027'30.0%22N+%2013%C2%B054'53.8%22E
+2006-03,2006,Alvsborg Bridge,Suspension bridge,Vibration measurements including detailed measurements of hangers.,14-614-1|https://www.google.com/maps/place/57%C2%B041'18.8%22N+%2011%C2%B054'11.2%22E
+2005-10,2005,Alvsborg Bridge,Suspension bridge,Vibration measurements to determine dynamic performance and cable forces.,14-614-1|https://www.google.com/maps/place/57%C2%B041'18.8%22N+%2011%C2%B054'11.2%22E
+2005-2011,2005,Old Arsta railway Bridge,Concrete arch bridge with backfill,"Strain measurements in 25 setups for model calibration and verification before, during and after strengthening.",3500-15-1|https://www.google.com/maps/place/59%C2%B018'28.0%22N+%2018%C2%B02'30.8%22E
+2005-05,2005,Svinesund Bridge,Concrete arch bridge,Load testing.,14-1319-1|https://www.google.com/maps/place/59%C2%B005'36.0%22N+11%C2%B015'06.4%22E
+2003-06,2003,Ljungan vid Alby,Tied-arch railway bridge,Measured strain and acceleration of hangers.,3500-1587-1|https://www.google.com/maps/place/62%C2%B027'51.5%22N+15%C2%B026'58.4%22E/
