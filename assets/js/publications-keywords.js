@@ -52,6 +52,7 @@
         return true;
       });
   };
+  const matchesAllTokens = (text, queryTokens) => queryTokens.every((token) => text.includes(token));
 
   const tokenizeAuthorText = (raw) => {
     const tokens = (raw || "").toLowerCase().match(/[\p{L}]+(?:-[\p{L}]+)*/gu) || [];
@@ -83,6 +84,7 @@
   };
 
   const publicationTokens = sources.map((node) => new Set(tokenizeSourceText(node.dataset.keywords || "")));
+  const publicationSearchTexts = sources.map((node) => node.dataset.search || "");
 
   const frequencies = new Map();
   publicationTokens.forEach((tokenSet) => {
@@ -91,37 +93,19 @@
     });
   });
 
-  // Merge plural forms only when a singular form already exists.
-  const pluralWords = [...frequencies.keys()].filter((word) => word.endsWith("s") && word.length > MIN_TOKEN_LENGTH);
-  pluralWords.forEach((word) => {
-    const singular = word.slice(0, -1);
-    if (!frequencies.has(singular)) return;
-    const count = frequencies.get(word) || 0;
-    frequencies.set(singular, (frequencies.get(singular) || 0) + count);
-    frequencies.delete(word);
-  });
-
-  const normalizeSelectedToken = (token) => {
-    if (frequencies.has(token)) return token;
-    if (token.endsWith("s")) {
-      const singular = token.slice(0, -1);
-      if (frequencies.has(singular)) return singular;
-    }
-    if (token.endsWith("ies")) {
-      const singularY = `${token.slice(0, -3)}y`;
-      if (frequencies.has(singularY)) return singularY;
-    }
-    return token;
-  };
-
   const words = [...frequencies.entries()]
     .filter((entry) => entry[1] >= MIN_FREQUENCY)
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
     .slice(0, MAX_WORDS);
 
+  const wordMatchCount = new Map();
+  words.forEach(([word]) => {
+    const count = publicationSearchTexts.reduce((acc, text) => (text.includes(word) ? acc + 1 : acc), 0);
+    wordMatchCount.set(word, count);
+  });
+
   const selected = new Set(
     tokenizeQuery(params.get("q") || "")
-      .map((token) => normalizeSelectedToken(token))
       .filter((token) => frequencies.has(token))
   );
 
@@ -132,10 +116,10 @@
   const queryFromSelection = () => [...selected].join(" ");
 
   const countMatches = () => {
-    if (!selected.size) return publicationTokens.length;
+    if (!selected.size) return publicationSearchTexts.length;
     const required = [...selected];
-    return publicationTokens.reduce((acc, tokenSet) => {
-      if (required.every((token) => tokenSet.has(token))) return acc + 1;
+    return publicationSearchTexts.reduce((acc, text) => {
+      if (matchesAllTokens(text, required)) return acc + 1;
       return acc;
     }, 0);
   };
@@ -193,12 +177,13 @@
     words.forEach(([word, count]) => {
       const button = document.createElement("button");
       const active = selected.has(word);
+      const matched = wordMatchCount.get(word) || 0;
       button.type = "button";
       button.className = `keyword-token keyword-level-${sizeLevelForCount(count)}`;
       if (active) button.classList.add("is-active");
       button.dataset.keyword = word;
       button.setAttribute("aria-pressed", active ? "true" : "false");
-      button.title = `${count} publications`;
+      button.title = `${matched} publications`;
       button.textContent = word;
       cloud.appendChild(button);
     });

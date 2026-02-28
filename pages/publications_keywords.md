@@ -32,10 +32,12 @@ permalink: /publications/keywords/
   <div hidden>
     {% for pub in site.data.publications %}
       {% assign keyword_blob = pub.title | append: ' ' | append: pub.tags %}
+      {% assign search_blob = pub.title | append: ' ' | append: pub.authors | append: ' ' | append: pub.venue | append: ' ' | append: pub.tags %}
       <span
         class="pub-keyword-source"
         data-keywords="{{ keyword_blob | downcase | escape }}"
         data-authors="{{ pub.authors | downcase | escape }}"
+        data-search="{{ search_blob | downcase | escape }}"
       ></span>
     {% endfor %}
   </div>
